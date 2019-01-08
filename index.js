@@ -4,9 +4,9 @@
 
 var awsIot = require('aws-iot-device-sdk');
 
-var host = "a164od88o5iutv.iot.eu-west-1.amazonaws.com";
+var host = "xxxxxxxxxxxxxx.iot.eu-west-1.amazonaws.com";
 var topic = "$aws/things/fish_Tanks/shadow/update";
-var app_id = "amzn1.ask.skill.fc43a9c9-0ac0-41fa-b155-b8922347db89";
+var app_id = "amzn1.ask.skill.fc43a9c9-0ac0-41fa-b155-xxxxxxxxxxxx";
 var deviceName = "fish_Tanks";
 
 var mqtt_config = {
