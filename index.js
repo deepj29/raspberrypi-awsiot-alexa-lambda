@@ -5,9 +5,9 @@
 var awsIot = require('aws-iot-device-sdk');
 
 var host = "xxxxxxxxxxxxxx.iot.eu-west-1.amazonaws.com";
-var topic = "$aws/things/fish_Tanks/shadow/update";
+var topic = "$aws/things/aquarium/shadow/update";
 var app_id = "amzn1.ask.skill.fc43a9c9-0ac0-41fa-b155-xxxxxxxxxxxx";
-var deviceName = "fish_Tanks";
+var deviceName = "aquarium";
 
 var mqtt_config = {
     "keyPath": "./certs/private.pem.key",
